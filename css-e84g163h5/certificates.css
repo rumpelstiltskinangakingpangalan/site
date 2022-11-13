@@ -14,11 +14,6 @@ html#browserScroll {
 	overflow: hidden;
 }
 
-#tblGrid td{
-	
-	/* border: solid .1px white; */
-	
-}
 
 #tblGrid {
 	
@@ -493,6 +488,10 @@ html#browserScroll {
 	background-color: #1e1e1e;
 	transition-duration: 0.2s;
 	overflow: hidden;
+}
+
+.divThumbHori img {
+    object-fit: contain;
 }
 
 .loadImg {
