@@ -370,7 +370,7 @@ html#browserScroll {
 
 .imgCertificate {
     display: block;
-    opacity: .25;
+    opacity: 1;
     margin: auto;
     filter: grayscale(0);
     transform: translateY(23%);
