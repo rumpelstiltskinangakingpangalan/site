@@ -476,7 +476,7 @@ html#browserScroll {
 	grid-template-columns: repeat(auto-fit, 585px);
 	grid-column-gap: 1.5em;
 	grid-row-gap: 1em;
-	width: 70vw;
+	width: 80vw;
 	padding-top: 2em;
 	padding-bottom: 2em;
 	justify-content: center;
