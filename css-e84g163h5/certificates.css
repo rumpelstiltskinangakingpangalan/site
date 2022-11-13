@@ -281,7 +281,7 @@ html#browserScroll {
     opacity: .25;
     margin: auto;
     filter: grayscale(100);
-    transform: translateY(38%);
+    transform: translateY(96%);
     transition: 0.5s;
 }
 
@@ -292,10 +292,11 @@ html#browserScroll {
     background-color: #1E1E1E;
 }
 
-#divGame:hover .img3D {
+#divGame:hover .imgGame {
     filter: grayscale(0);
     opacity: 1;
 }
+
 
 
 #divWeb {
@@ -369,18 +370,13 @@ html#browserScroll {
 
 .imgCertificate {
     display: block;
-    opacity: 1;
+    opacity: .25;
     margin: auto;
     filter: grayscale(0);
-    transform: translateY(96%);
+    transform: translateY(23%);
     transition: 0.5s;
 }
 
-
-#divCertificate:hover .imgCertificate {
-    filter: grayscale(0);
-    opacity: 1;
-}
 
 #divMessage {
 	
