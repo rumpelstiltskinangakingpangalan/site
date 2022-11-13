@@ -278,11 +278,23 @@ html#browserScroll {
 
 .imgGame {
     display: block;
-    opacity: 1;
+    opacity: .25;
     margin: auto;
-    filter: grayscale(0);
-    transform: translateY(96%);
+    filter: grayscale(100);
+    transform: translateY(38%);
     transition: 0.5s;
+}
+
+#divGame:hover {
+    border: solid 2px rgba(65,187,255,1);
+    filter: grayscale(0);
+    opacity: 1;
+    background-color: #1E1E1E;
+}
+
+#divGame:hover .img3D {
+    filter: grayscale(0);
+    opacity: 1;
 }
 
 
@@ -357,19 +369,13 @@ html#browserScroll {
 
 .imgCertificate {
     display: block;
-    opacity: .25;
+    opacity: 1;
     margin: auto;
-    filter: grayscale(100);
-    transform: translateY(23%);
+    filter: grayscale(0);
+    transform: translateY(96%);
     transition: 0.5s;
 }
 
-#divCertificate:hover {
-    border: solid 2px rgba(65,187,255,1);
-    filter: grayscale(0);
-    opacity: 1;
-    background-color: #1E1E1E;
-}
 
 #divCertificate:hover .imgCertificate {
     filter: grayscale(0);
@@ -470,7 +476,7 @@ html#browserScroll {
 	grid-template-columns: repeat(auto-fit, 585px);
 	grid-column-gap: 1.5em;
 	grid-row-gap: 1em;
-	width: 60vw;
+	width: 70vw;
 	padding-top: 2em;
 	padding-bottom: 2em;
 	justify-content: center;
