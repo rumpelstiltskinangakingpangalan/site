@@ -473,10 +473,10 @@ html#browserScroll {
 #divAlbum {
 	
 	display: grid;
-	grid-template-columns: repeat(auto-fit, 585px);
+	grid-template-columns: repeat(auto-fit, 292px);
 	grid-column-gap: 1.5em;
 	grid-row-gap: 1em;
-	width: 80vw;
+	width: 60vw;
 	padding-top: 2em;
 	padding-bottom: 2em;
 	justify-content: center;
@@ -488,8 +488,8 @@ html#browserScroll {
 
 .divThumbHori {
 	
-	height: 414px;
-	width: 585px;
+	height: 207px;
+	width: 292px;
 	border-radius: 10px;
 	background-color: #1e1e1e;
 	transition-duration: 0.2s;
@@ -497,7 +497,7 @@ html#browserScroll {
 }
 
 .divThumbHori img {
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .loadImg {
