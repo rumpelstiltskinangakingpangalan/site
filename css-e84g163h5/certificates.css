@@ -491,7 +491,7 @@ html#browserScroll {
 }
 
 .divThumbHori img {
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .loadImg {
