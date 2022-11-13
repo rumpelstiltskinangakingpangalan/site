@@ -467,7 +467,7 @@ html#browserScroll {
 #divAlbum {
 	
 	display: grid;
-	grid-template-columns: repeat(auto-fit, 500px);
+	grid-template-columns: repeat(auto-fit, 585px);
 	grid-column-gap: 1.5em;
 	grid-row-gap: 1em;
 	width: 60vw;
@@ -482,8 +482,8 @@ html#browserScroll {
 
 .divThumbHori {
 	
-	height: 270px;
-	width: 500px;
+	height: 414px;
+	width: 585px;
 	border-radius: 10px;
 	background-color: #1e1e1e;
 	transition-duration: 0.2s;
